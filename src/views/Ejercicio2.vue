@@ -103,8 +103,6 @@
                     alert('el registro se ha realizado correctamente');
                 }
             }
-    
-
         }
     };
 </script>

@@ -1,8 +1,3 @@
-<script>
-// import HelloWorld from './components/HelloWorld.vue'
-// import TheWelcome from './components/TheWelcome.vue'
-</script>
-
 <template>
 
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -19,40 +14,18 @@
 </nav>
 
 <div class="container py-4">
-
-
-      <router-view />
-    </div>
-  <!-- <router-view /> -->
-
+  <router-view />
+</div>
 
 </template>
 
 <style scoped>
-/* header {
-  line-height: 1.5;
-}
- */
-/* .logo {
-  display: block;
-  margin: 0 auto 2rem;
-} */
+  .navbar-expand-lg .navbar-collapse{
+    background-color: aliceblue;
+  }
 
-/* @media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  } */
+  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+    background-color: aliceblue;
+  }
 
-/*   .logo {
-    margin: 0 2rem 0 0;
-  } */
-
-/*   header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  } */
-/* } */
 </style>
